@@ -1,0 +1,1 @@
+insert into users(nombres,apellidos,us,password,tipo,anulado,remember_token,created_at,updated_at) values('Administrador','de Sistemas','admin','$2y$10$4W/EHlRYQxP7VPVEBDXZi.DXitj2Df4i/WrBlnbgQiRpjwn.iRD0W','admin',false,'GRGwIVpxrARc9pKXM5AR7FTh0jlux2LBfuHsNJ7nfF6H2agwgSrjcxEDPadF','2017-04-08 10:40:12','2017-04-08 10:40:12');
