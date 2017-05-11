@@ -62,6 +62,7 @@ class InsumoController extends Controller {
 					'unidad' => $request['unidad'],
 					'precio_compra' => $request['precio_compra'],
 					'precio_venta' => $request['precio_venta'],
+					'precio_mayor' => $request['precio_mayor'],
 					'version' => 0,
 					'anulado' => false,
 					]);
@@ -158,6 +159,7 @@ class InsumoController extends Controller {
 				'unidad' => $request['unidad'],
 				'precio_compra' => $request['precio_compra'],
 				'precio_venta' => $request['precio_venta'],
+				'precio_mayor' => $request['precio_mayor'],
 				'version' => 0,
 				'anulado' => false,
 				]);

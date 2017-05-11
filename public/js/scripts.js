@@ -426,5 +426,20 @@ $(".table").DataTable( {
             $("#form_venta").submit();
         }
     });
+    
+    $("#codigor").change(function(){
+        var indice = $("#codigor").val();
+        $.ajax({
+            url: '/producto/show',
+            data: {id: indice},
+            type: 'GET',
+            dataType: 'json',
+            success:function(data){
+                $("#descripcionr").val(data.descripcion);
+                $("#cantidad").focus().select();
+            }
+        }); 
+       
+    });
 
 });

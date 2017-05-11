@@ -84,7 +84,7 @@
         </div>
         <ul class="list-unstyled">
             <li class="" id="bienadmin">
-                <a href="/bienadmin">
+                <a href="/bienvenido">
                     <i class="fa fa-home"></i>
                     <span class="nav-label">Inicio</span>
                 </a>
@@ -136,6 +136,22 @@
                     </li>
                     <li class="" id="egresocreate">
                         <a href="/solicitud/create">Nueva Venta</a>
+                    </li>
+                </ul>
+            </li>
+            
+            <li class="has-submenu">
+                <a href="#">
+                    <i class="fa fa-exclamation"></i> 
+                    <span class="nav-label">Retirados</span>
+                    <i class="fa fa-chevron-right pull-right"></i>
+                </a>
+                <ul class="list-unstyled">
+                    <li class="" id="egreso">
+                        <a href="/retirado">Listado</a>
+                    </li>
+                    <li class="" id="egresocreate">
+                        <a href="/retirado/create">Nuevo Retiro</a>
                     </li>
                 </ul>
             </li>

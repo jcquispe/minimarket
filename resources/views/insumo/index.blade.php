@@ -24,6 +24,7 @@
                             <th>MEDIDA</th>
                             <th>PRECIO COMPRA</th>
                             <th>PRECIO VENTA</th>
+                            <th>PRECIO POR MAYOR</th>
                             <th>ACCIONES</th>
                         </tr>
                     </thead>
@@ -40,6 +41,7 @@
                             <td>{{$ins->unidad}}</td>
                             <td class="text-right"><b>{{$ins->precio_compra}} Bs.</b></td>
                             <td class="text-right"><b>{{$ins->precio_venta}} Bs.</b></td>
+                            <td class="text-right"><b>{{$ins->precio_mayor}} Bs.</b></td>
                             <td style="text-align:center;">
                                 {!!link_to_route('insumo.edit', $title = 'Actualizar', $parameters = $ins->id, $attributes = ['class'=>'btn btn-sm btn-warning izquerda'])!!}
                             </td>

@@ -40,3 +40,5 @@ Route::resource('soluser', 'SoluserController');
 Route::post('/egreso/anular', 'EgresoController@anular');
 Route::get('/egreso/solicitudes', 'EgresoController@solicitudes');
 Route::resource('egreso', 'EgresoController');
+Route::post('/retirado/anular', 'RetiradoController@anular');
+Route::resource('retirado', 'RetiradoController');

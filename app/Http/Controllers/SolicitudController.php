@@ -52,7 +52,7 @@ class SolicitudController extends Controller {
 	public function obtieneCodigo(){
 		$ges = (string)date('Y');
 		$codigo = $this->maximoCodigo();
-		$venta = $ges."V-".($codigo+1);
+		$venta = $ges."V".($codigo+1);
 		return $venta;
 	}
 	

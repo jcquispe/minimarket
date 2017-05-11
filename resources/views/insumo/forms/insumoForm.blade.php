@@ -48,9 +48,16 @@
 </div>
 
 <div class="form-group">
-    {!!Form::label('precio_venta', 'Precio de Venta:', ['class'=>'col-sm-3 control-label'])!!}
+    {!!Form::label('precio_venta', 'Precio de Venta (por menor):', ['class'=>'col-sm-3 control-label'])!!}
     <div class="col-sm-9">
-        {!!Form::text('precio_venta',null,['class'=>'form-control', 'placeholder'=>'Precio de Comercialización'])!!}
+        {!!Form::text('precio_venta',null,['class'=>'form-control', 'placeholder'=>'Precio de Comercialización al por menor'])!!}
+    </div>
+</div>
+
+<div class="form-group">
+    {!!Form::label('precio_mayor', 'Precio de Venta (por mayor):', ['class'=>'col-sm-3 control-label'])!!}
+    <div class="col-sm-9">
+        {!!Form::text('precio_mayor',null,['class'=>'form-control', 'placeholder'=>'Precio de Comercialización al por mayor'])!!}
     </div>
 </div>
 	  

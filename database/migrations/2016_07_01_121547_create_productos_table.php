@@ -23,6 +23,7 @@ class CreateProductosTable extends Migration {
 			$table->string('unidad', 100);
 			$table->float('precio_compra');
 			$table->float('precio_venta');
+			$table->float('precio_mayor');
 			$table->integer('version');
 			$table->boolean('anulado');
 			$table->timestamps();
